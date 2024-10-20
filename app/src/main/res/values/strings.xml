@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">sem9_firebase</string>
+    <string name="valbtlogin">LOGIN</string>
+    <string name="valetemaillogin">Enter email</string>
+    <string name="valetpasswordlogin">Enter password</string>
+</resources>
