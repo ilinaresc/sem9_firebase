@@ -42,7 +42,7 @@ class LoginActivity : AppCompatActivity() {
                 .addOnCompleteListener(this) {task->
                     if (task.isSuccessful) {
                         Snackbar.make(findViewById(android.R.id.content), "Authetication success", Snackbar.LENGTH_SHORT).show()
-                        startActivity(Intent(this, MainActivity::class.java))
+                        startActivity(Intent(this, PrincipalActivity::class.java))
                     }else {
                         Snackbar.make(findViewById(android.R.id.content), "Authetication failed", Snackbar.LENGTH_SHORT).show()
                     }
